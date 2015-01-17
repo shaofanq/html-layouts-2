@@ -1,0 +1,66 @@
+/*
+*{
+	outline: 3px solid orange;
+}*/
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0.5%;
+	margin:0;
+	box-sizing:border-box;
+}
+.red {
+	background: #D0021B;
+}
+.blue {
+	background: #4A90E2;
+}
+.gray {
+	background: #4A4A4A;
+}
+.head {
+	width: 100%;
+	height:20%;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.header_button {
+	display: inline-block;
+	height:90%;
+	width:30%;
+}
+.textarea {
+	width: 100%;
+	height:26%;
+	overflow: auto;
+}
+.colorBlock {
+	width: 100%;
+	height:30%;
+	display: flex;
+
+}
+.block1{
+	height:100%;
+	width:20%;
+}
+.block2{
+	height:100%;
+	width:80%;
+}
+.colorBlock2 {
+	padding-top: 1%;
+	width: 100%;
+	height:24%;
+	box-sizing:border-box;
+	display: flex;
+}
+.graybox{
+	background: #4A4A4A;
+	height:100%;
+	width:70%;
+	margin: 0 auto;
+}
